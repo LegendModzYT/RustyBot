@@ -11,6 +11,12 @@ const config = {
     //Admin channel ID to report issues
     "issueTracker": "532225061927518218",
 
+    //Admin role ID to ping admins for immediate review
+    "adminRoleID": "506468182530195456",
+
+    //Minimum flags to ping admin for immediate review
+    "minimumFlag": 1,
+
     // Confidential Tokens - Usage Eg: client.tokens.bottoken
     "tokens": require("./tokens.json"),
 
